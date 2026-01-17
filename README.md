@@ -24,7 +24,7 @@
 
 ### Exercises
 
-1. Write a program that prints command-line arguments (`argc`, `argv`)
+1. Write a program that prints command-line arguments (`argc`, `argv`)✅
 2. Implement a calculator using `switch` ✅
 3. Write a function that swaps two integers (first attempt will fail—learn why) ✅
 4. Implement your own `strlen` ✅
