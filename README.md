@@ -1,6 +1,6 @@
 # C Programming Study Plan (Beginner → Advanced)
 
-## MODULE 1 – C Foundations (Syntax & Mental Model)
+## MODULE 1 – C Foundations (Syntax & Mental Model) ✅✅✅
 
 **Goal:** Understand what C *is* and how it differs from JS/TS
 
@@ -28,7 +28,8 @@
 2. Implement a calculator using `switch` ✅
 3. Write a function that swaps two integers (first attempt will fail—learn why) ✅
 4. Implement your own `strlen` ✅
-5. Compile with:
+
+Compile with:
 
    ```sh
    gcc -Wall -Wextra -Werror
@@ -58,11 +59,10 @@
 
 ### Exercises
 
-1. Implement `swap(int *a, int *b)`
-2. Write a function that reverses an array **in place**
-3. Print memory addresses of array elements
-4. Implement `strcpy` using pointers
-5. Write a program that **crashes**, then explain *why*
+1. Write a function that reverses an array **in place**✅
+2. Print memory addresses of array elements
+3. Implement `strcpy` using pointers
+4. Write a program that **crashes**, then explain *why*
 
 ---
 
