@@ -62,7 +62,7 @@ Compile with:
 1. Write a function that reverses an array **in place**✅
 2. Print memory addresses of array elements✅
 3. Implement `strcpy` using pointers✅
-4. Write a program that **crashes**, then explain *why*
+4. Write a program that **crashes**, then explain *why*✅
 
 ---
 
