@@ -84,10 +84,15 @@ Compile with:
 * `valgrind`
 * `AddressSanitizer`
 
+run with:
+  ```sh
+  gcc -g -Wall -Wextra -Werror main.c -o main && valgrind --leak-check=full ./main
+  ```
+
 ### Exercises
 
-1. Allocate an array dynamically and fill it
-2. Implement a dynamic string type
+1. Allocate an array dynamically and fill it✅
+2. Implement a dynamic string type✅
 3. Write a program with a memory leak, then fix it
 4. Re-implement `strdup`
 5. Use `valgrind` and explain each warning
