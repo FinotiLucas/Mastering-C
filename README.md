@@ -37,7 +37,7 @@ Compile with:
 
 ---
 
-## MODULE 2 – Memory & Pointers (CORE MODULE)
+## MODULE 2 – Memory & Pointers (CORE MODULE) ✅✅✅
 
 **Goal:** Become comfortable with pointers and memory ownership
 
