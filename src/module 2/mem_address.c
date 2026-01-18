@@ -19,7 +19,7 @@
 
 void print_addresses(int *arr, size_t len) {
   for (size_t i = 0; i < len; i++) {
-    printf("arr[%zu] = %d, address = %p\n", i, arr[i], &arr[i]);
+    printf("arr[%zu] = %d, address = %p\n", i, arr[i], (void *)&arr[i]);
   }
 }
 
