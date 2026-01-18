@@ -60,7 +60,7 @@ Compile with:
 ### Exercises
 
 1. Write a function that reverses an array **in place**✅
-2. Print memory addresses of array elements
+2. Print memory addresses of array elements✅
 3. Implement `strcpy` using pointers
 4. Write a program that **crashes**, then explain *why*
 
@@ -91,6 +91,7 @@ Compile with:
 3. Write a program with a memory leak, then fix it
 4. Re-implement `strdup`
 5. Use `valgrind` and explain each warning
+6. Re-implement `memcpy`
 
 ---
 
