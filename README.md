@@ -95,7 +95,6 @@ run with:
 2. Implement a dynamic string type✅
 3. Write a program with a memory leak, then fix it
 4. Re-implement `strdup`
-5. Use `valgrind` and explain each warning
 6. Re-implement `memcpy`
 
 ---
