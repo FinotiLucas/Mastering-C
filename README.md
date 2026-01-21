@@ -121,7 +121,7 @@ run with:
 
 1. Implement `strlen` safely✅
 2. Write a safe input function using `fgets`✅
-3. Implement string concatenation with size limits
+3. Implement string concatenation with size limits✅
 4. Write a program vulnerable to buffer overflow, then fix it
 5. Detect overflow using AddressSanitizer
 
