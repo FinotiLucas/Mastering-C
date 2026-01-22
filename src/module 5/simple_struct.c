@@ -106,7 +106,7 @@ int main(void) {
   User *user = create_user(name, email, age);
   User *user_clone = clone_user(user);
 
-  if (user) {
+  if (user && user_clone) {
 
     printf("User name: %s, User email: %s, User age: %d\n", user->name,
            user->email, user->age);
