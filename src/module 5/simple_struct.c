@@ -76,6 +76,14 @@ User *create_user(const char *name, const char *email, int age) {
   return user;
 }
 
+User *clone_user(const User *u) {
+  if (u == NULL) {
+    return NULL;
+  }
+
+  return create_user(u->name, u->email, u->age);
+}
+
 void user_destroy(User *user) {
   if (user == NULL) {
     return;
@@ -96,13 +104,21 @@ int main(void) {
   int age = 28;
 
   User *user = create_user(name, email, age);
+  User *user_clone = clone_user(user);
 
   if (user) {
 
     printf("User name: %s, User email: %s, User age: %d\n", user->name,
            user->email, user->age);
+
+    printf("Clone name: %s, Clone email: %s, Clone age: %d\n", user_clone->name,
+           user_clone->email, user_clone->age);
+
     user_destroy(user);
+    user_destroy(user_clone);
+
     user = NULL;
+    user_clone = NULL;
   }
 
   return 0;
