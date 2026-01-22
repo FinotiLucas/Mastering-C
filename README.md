@@ -162,7 +162,7 @@ run with:
 
 ### Exercises
 
-1. Read a file line by line
+1. Read a file line by line✅
 2. Write a binary file and read it back
 3. Implement a config file parser
 4. Handle all failure cases explicitly
