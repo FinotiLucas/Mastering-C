@@ -143,7 +143,7 @@ run with:
 
 1. Define a `User` struct with dynamically allocated fields✅
 2. Write create/destroy functions for a struct✅
-3. Pass structs by value vs pointer—measure difference
+3. Pass structs by value vs pointer—measure difference✅
 4. Implement a linked list node
 5. Introduce and fix a dangling pointer bug
 
